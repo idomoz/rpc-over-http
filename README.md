@@ -15,7 +15,7 @@ This is a simple JavaScript library for promised RPC over HTTP implemented with 
             return 'correct credentials'
         return 'forbidden'
     ```
-    the `request` object is passed to the evey function by `app.py`.
+    the `request` object is passed to evey function by `app.py`.
 (For more examples see [`api.py`])
   - Add [`populate.py`] to your scripts directory and change any relevant paths inside it.
 
