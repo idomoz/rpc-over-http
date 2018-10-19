@@ -6,8 +6,11 @@ def register_user(username, password, age):
     pass
 
 
+BANNES_ADDRESS = '1.1.1.1'
+
+
 def login(username, password, request):
-    if username == 'foo' and password == 'bar' and request.remote_addr != '1.1.1.1':
+    if username == 'foo' and password == 'bar' and request.remote_addr != BANNES_ADDRESS:
         return 'logged in!'
     return 'forbidden'
 
