@@ -39,7 +39,7 @@ This is a simple JavaScript library for promised RPC over HTTP implemented with 
 - Because the functions are populated, most IDEs will suggest the arguments every function takes, which minimizes mistakes:
 ![screenshot](https://i.imgur.com/tXoClep.png)
 
-#Dependencies
+# Dependencies
 - [axios]
 
  **Enjoy! 😃**
