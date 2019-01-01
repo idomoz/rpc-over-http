@@ -7,7 +7,7 @@ This is a simple JavaScript library for promised RPC over HTTP implemented with 
 # Installation
 
   - Add [`server.js`] to Frontend directory.
-  - Aad [`app.py`] to Backend directory.
+  - Add [`app.py`] to Backend directory.
   - Create a file called `api.py` in your Backend directory and add some functions:
     ```py
     def login(username, password, request):
